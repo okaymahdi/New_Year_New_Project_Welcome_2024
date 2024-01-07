@@ -12,4 +12,41 @@ body {
   font-family: "Merriweather", serif;
 }
 
+.fix_width {
+  width: 82%;
+  max-width: 1320px;
+  margin: auto;
+}
 
+/* header styles */
+.header {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  padding: 147px 0;
+}
+
+.header.container {
+  margin: -150px auto;
+}
+
+.container > h4 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container > h1 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-size: 61px;
+  font-weight: 900;
+  line-height: 65px;
+  margin-top: 10px;
+}
