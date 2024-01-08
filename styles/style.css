@@ -130,14 +130,14 @@ body {
   margin-bottom: 20px;
 }
 
-.midnight_text button {
-  color: #fff;
+.btn {
+  color: #F00;
   background: transparent;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px 20px;
-  border: 3px solid #f00;
+  border: 2px solid #F00;
   border-radius: 25px;
   letter-spacing: 2px;
   margin-top: 10px;
@@ -145,9 +145,9 @@ body {
   transition: 0.4s;
 }
 
-.midnight_text button:hover {
-  color: #f00;
-  background: #fff;
+.btn:hover {
+  color: #fff;
+  background: #F00;
   letter-spacing: 4px;
   border: none;
 }
@@ -156,3 +156,30 @@ body {
   width: 50%;
 }
 
+
+/* address section styles */
+.address {
+  text-align: center;
+  height: 395px;
+  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+  padding: 100px 0;
+}
+
+.address strong {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+
+.address p {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
