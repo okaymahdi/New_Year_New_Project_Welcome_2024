@@ -20,7 +20,8 @@ body {
 
 /* header styles */
 .header {
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   background-position: center;
@@ -89,3 +90,69 @@ body {
   height: 400px;
   margin-bottom: 120px;
 }
+
+/* midnight party styles */
+.midnight {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0%;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.midnight_text {
+  padding-left: 48px;
+  size: 50%;
+}
+
+.midnight_text h1 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0.6px;
+  width: 527px;
+}
+
+.midnight_text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 571px;
+  margin-bottom: 20px;
+}
+
+.midnight_text button {
+  color: #fff;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 3px solid #f00;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.midnight_text button:hover {
+  color: #f00;
+  background: #fff;
+  letter-spacing: 4px;
+  border: none;
+}
+
+.new_year_2024 {
+  width: 50%;
+}
+
