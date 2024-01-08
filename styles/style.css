@@ -166,7 +166,7 @@ body {
     rgba(255, 0, 0, 0) 100%
   );
   padding: 100px 0;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .address strong {
@@ -193,7 +193,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 
 .coming_soon_item h5 {
@@ -270,4 +270,86 @@ body {
   position: absolute;
   left: 25px;
   top: 25px;
+}
+
+/* functional section styles */
+.functional {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.functional .functional_text h5 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.functional .functional_text h1 > span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.functional .functional_text h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.functional .functional_text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin-bottom: 64px;
+}
+
+.functional .functional_images .bottom_img {
+  width: 1040px;
+}
+
+
+
+
+
+.images_head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.box_img {
+  position: relative;
+  top: 197px;
+  width: 400px;
+  left: 111px;
+}
+.discount_img {
+  position: relative;
+  left: 108px;
+  top: 8px;
+  width: 300px;
+  height: 300px;
+  z-index: 5;
+}
+.woman_img {
+  position: relative;
+  right: 26px;
+  z-index: 1;
+  width: 400px;
+  height: 400px;
 }
