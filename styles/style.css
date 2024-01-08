@@ -138,6 +138,7 @@ body {
   text-transform: uppercase;
   padding: 10px 20px;
   border: 2px solid #f00;
+  outline: none;
   border-radius: 15px;
   letter-spacing: 2px;
   margin-top: 10px;
@@ -150,6 +151,10 @@ body {
   background: #f00;
   letter-spacing: 4px;
   border: none;
+}
+
+.btn:hover:focus {
+  outline: none;
 }
 
 .new_year_2024 {
@@ -384,6 +389,9 @@ body {
   margin-bottom: 48px;
 }
 
+.portfolio_images {
+  overflow: hidden;
+}
 
 .portfolio_heder_images {
   display: flex;
@@ -393,12 +401,11 @@ body {
   width: 350px;
   height: 350px;
   text-align: center;
+  cursor: pointer;
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.portfolio_images {
-  overflow: hidden;
-}
+
 .portfolio_footer_images {
   display: flex;
   justify-content: space-around;
@@ -408,4 +415,90 @@ body {
   height: 350px;
   text-align: center;
   margin: 0 auto;
+  cursor: pointer;
+}
+
+/* subscribe section styles */
+.subscribe {
+  border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+
+.subscribe h2 {
+  color: #070211;
+text-align: center;
+font-family: "Merriweather",serif;
+font-size: 40px;
+font-weight: 900;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+
+
+.subscribe p {
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 40px;
+}
+
+
+.subscribe>img {
+  padding: 60px 0;
+}
+.subscribe form {
+  padding: 60px;
+  align-items: center;
+}
+
+.subscribe > form > input[type="email"] {
+  width: 423px;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #fff;
+  font-size: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
+.subscribe > form > input[type="email"]:focus {
+  outline: none;
+}
+
+.subscribe > form > input[type="submit"] {
+  width: 160px;
+  height: 70px;
+  border: none;
+  padding: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: #F00;
+  margin-left: -125px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.subscribe > form > input[type="submit"]:hover {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.subscribe > form > input[type="submit"]:hover:focus {
+  outline: none;
 }
