@@ -98,7 +98,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0%;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -131,14 +131,14 @@ body {
 }
 
 .btn {
-  color: #F00;
+  color: #f00;
   background: transparent;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px 20px;
-  border: 2px solid #F00;
-  border-radius: 25px;
+  border: 2px solid #f00;
+  border-radius: 15px;
   letter-spacing: 2px;
   margin-top: 10px;
   cursor: pointer;
@@ -147,7 +147,7 @@ body {
 
 .btn:hover {
   color: #fff;
-  background: #F00;
+  background: #f00;
   letter-spacing: 4px;
   border: none;
 }
@@ -156,13 +156,17 @@ body {
   width: 50%;
 }
 
-
 /* address section styles */
 .address {
   text-align: center;
   height: 395px;
-  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   padding: 100px 0;
+  margin-bottom: 100px;
 }
 
 .address strong {
@@ -182,4 +186,88 @@ body {
   line-height: 50px;
   text-transform: capitalize;
   margin-bottom: 30px;
+}
+
+/* coming soot section styles */
+.coming_soon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.coming_soon_item h5 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.coming_soon_item h2 {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.coming_soon_item p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 338px;
+  margin-bottom: 40px;
+}
+
+.coming_soon_item_last {
+  margin-top: 74px;
+}
+
+.coming_soon_item_last h2 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.coming_soon_item_last p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 233px;
+  margin-bottom: 40px;
+}
+
+.coming_soon .coming_soon_img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100%;
+  background: #fff;
+}
+
+.coming_soon .coming_soon_img .img_round {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #fff;
+  border-radius: 50%;
+
+  margin: 30px;
+  border: 10px solid #f00;
+}
+
+.coming_soon .coming_soon_img .img_round > img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
 }
