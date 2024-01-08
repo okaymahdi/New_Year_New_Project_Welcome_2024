@@ -14,7 +14,7 @@ body {
 
 .fix_width {
   width: 82%;
-  max-width: 1320px;
+  max-width: 1600px;
   margin: auto;
 }
 
@@ -49,4 +49,43 @@ body {
   font-weight: 900;
   line-height: 65px;
   margin-top: 10px;
+}
+
+/* discount section styles */
+.discount_section {
+  text-align: center;
+  margin-top: 139px;
+}
+
+.discount_section h1 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+.discount_section p {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 14px;
+}
+
+.discount_section h2 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 45px;
+}
+
+.discount_section img {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 120px;
 }
