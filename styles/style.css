@@ -96,13 +96,11 @@ body {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0%;
+  background-size: cover;
   margin-bottom: 150px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  overflow: hidden;
+  padding: 10px 0;
 }
 
 .midnight_text {
@@ -144,6 +142,8 @@ body {
   margin-top: 10px;
   cursor: pointer;
   transition: 0.4s;
+  width: 183px;
+  height: 48px;
 }
 
 .btn:hover {
@@ -151,6 +151,7 @@ body {
   background: #f00;
   letter-spacing: 4px;
   border: none;
+  outline: none;
 }
 
 .btn:hover:focus {
